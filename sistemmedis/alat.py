@@ -35,7 +35,7 @@ class Alatmedis(ABC):
         print(f'{self.nama_alat} telah menyala')
     
     def tampilkan_status(self):
-        print('=====SATUS ALAT=====')
+        print('=====STATUS ALAT=====')
         print(f'Nama Alat: {self.nama_alat}')
         print(f'ID Alat: {self._id_alat}')
         print(f'Jumlah Penggunaan: {self._jumlah_penggunaan}')
