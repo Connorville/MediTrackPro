@@ -7,8 +7,8 @@ class alatpendukung_kehidupan(Alatmedis):
     def respon_darurat(self):
         print(f"respon darurat untuk alat {self.nama_alat} diaktifkan")
 
-    def hitung_skor_keamanan(self, skor):
-        skor = self.batre()
+    def hitung_skor_keamanan(self):
+        skor = self.batre
         if self._kalibrasi > 90:
             skor -= 20
         
